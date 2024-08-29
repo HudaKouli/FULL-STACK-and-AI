@@ -1,0 +1,42 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background-color: rgb(152, 150, 150);
+}
+.container{
+padding: 200px;
+margin: auto;
+background-color: white;
+width: 500px;
+}
+.first_sec{
+    display: flex;
+    justify-content:center;
+
+    }
+.second_sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    position:relative;
+    left: 0px;
+  
+}
+.btn{
+margin: auto;
+display: flex;
+justify-content: center;
+width: 150px;
+color: white;
+background-color: blue;
+}
+.labeLL{
+    width: 500px;
+}
+.forgot{
+width: 300px;
+
+}
