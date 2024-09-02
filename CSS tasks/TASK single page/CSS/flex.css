@@ -1,0 +1,62 @@
+body{
+background-color: rgb(225, 220, 230);
+}
+.header{
+color: white;
+background-color: red;
+width: 70%;
+text-align: center;
+margin: auto;
+padding: 30px;
+}
+.list{
+list-style-type: none ;
+display: flex;
+justify-content: center;
+flex-flow: nowrap;
+}
+.item{
+text-align: center;  
+/* width made the words expand*/
+width: 90px;
+font-weight: 500;
+margin: 20px;
+padding:10px ;
+border-radius: 10px;
+background-color: rgb(201, 197, 197);
+}
+.d_flex{
+display: flex;
+justify-content: center;
+
+}
+.btn{
+    color: azure;
+    background-color: red;
+    border-radius: 6px;
+    width: 100px;
+    border: none;
+    padding: 10px;
+}
+.img{
+display: flex;
+width: 500px;
+height: auto;
+border-radius: 10px;
+
+}
+.container{
+background-color: rgb(198, 198, 201);
+margin: 12px ;
+padding: 20px;
+width: 500px;
+border-radius: 15px;
+
+}
+.image{
+display: flex;
+width: 500px;
+border-radius: 10px;
+height:415px;
+
+}
