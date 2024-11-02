@@ -1,0 +1,19 @@
+table {
+margin: 20px auto;
+padding: 0px;
+width: 500px;
+}
+
+table,th,td{
+border: 2px solid red;
+border-collapse: collapse;
+text-align: center;
+}
+th{
+    background-color: rgba(0, 255, 255, 0.285);
+    padding: 20px;
+}
+td{
+    padding: 20px;
+    background-color: rgb(228, 242, 242);
+}
