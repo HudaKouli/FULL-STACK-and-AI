@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(14,14,14);
+    margin:0;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    width: 130px;
+}
+.about_me{
+    color: rgb(70,171,230);
+    text-align: right;
+    margin:20px;
+}
+.first_section{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; /* Aligns items vertically */
+    padding: 0 20px;
+    /*position: fixed; /* Fixes the section at the top */
+    top: 0; /* Positions it at the top */
+    width: 100%; /* Ensures it takes the full width */
+    /*background-color: rgb(14, 14, 14); /* Same background to blend with the body */
+    z-index: 1000; 
+}
+
+.about_me_div{
+    display: flex;
+    justify-content: left;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.personal_img{
+    display: flex;
+    justify-content:right;
+    size: 300px;
+    opacity:0.5;
+    max-width: 40%;
+    height: auto;
+    margin: 0 auto; /* Adds horizontal centering when flexbox is not enough */
+
+}
+.nav_bar {
+    display: flex;
+    margin-left: auto;
+    list-style-type: none; 
+    /*flex flow short for flex direction and flex wrap*/
+}
+
+.item{
+text-align: center;     
+width: 110px;
+font-weight: 700px;
+margin: auto 30px;
+padding: auto 30px ;
+border-radius: 10px;
+background-color: rgb(14, 13, 13);
+color: rgb(217,217,216);
+margin-top: -25px; /* Adjust this value to move items up */
+}
+
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.middle{
+    transition: .5s ease;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+.btn {
+    background-color:rgb(210,0,200);
+    border: none;
+    color: rgb(217,217,216);
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.container:hover .personal_img {
+    opacity: 0.3;
+}
+.container:hover .middle {
+    opacity: 1;
+}
+.text{
+    color:rgb(217,217,216);
+    
+}
+
+.skills{
+    font-size: 20px;
+    margin:20px;
+}
+.my_skills{
+    color:rgb(8, 8, 8);
+    list-style-type:none;
+    background-color:rgb(217,217,216) ;
+}
+
+.list_of_skills{
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Creates 6 equal columns */
+    gap: 10px;
+    justify-items: center; /* Aligns items to the center of each grid cell */
+    margin: 20px;
+}
+.tag {
+    background-color: rgb(14,14,14);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    width: 70%; 
+    margin-bottom: 20px auto;
+    text-align: center;
+}
+.tag:hover {
+    transform: scale(1.1);
+}
+
+.tag:nth-child(1),
+.tag:nth-child(8),
+.tag:nth-child(15),
+.tag:nth-child(22),
+.tag:nth-child(29) {
+    background-color: #49a8e6; /* Light Blue */
+}
+
+.tag:nth-child(2),
+.tag:nth-child(9),
+.tag:nth-child(16),
+.tag:nth-child(23),
+.tag:nth-child(30) {
+    background-color: rgb(210,0,200); /* Magenta */
+}
+
+.tag:nth-child(3),
+.tag:nth-child(10),
+.tag:nth-child(17),
+.tag:nth-child(24),
+.tag:nth-child(31) {
+    background-color: rgb(14, 13, 13); /* Black */
+}
+
+.tag:nth-child(4),
+.tag:nth-child(11),
+.tag:nth-child(18),
+.tag:nth-child(25),
+.tag:nth-child(32) {
+    background-color: rgb(54,192,234); /* Sky Blue */
+}
+
+.tag:nth-child(5),
+.tag:nth-child(12),
+.tag:nth-child(19),
+.tag:nth-child(26),
+.tag:nth-child(33) {
+    background-color: #b296ff; /* Lavender */
+}
+
+.tag:nth-child(6),
+.tag:nth-child(13),
+.tag:nth-child(20),
+.tag:nth-child(27),
+.tag:nth-child(34) {
+    background-color: rgb(163,57,210); /* Purple */
+}
+
+.tag:nth-child(7),
+.tag:nth-child(14),
+.tag:nth-child(21),
+.tag:nth-child(28),
+.tag:nth-child(35) {
+    background-color: rgb(255,182,193); /* Light Pink */
+}
+
+
+  /* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+.footer{
+    background-color:rgb(94,94,94) ;
+}
+.d_flex{
+    display: flex;
+    justify-content: center;
+    
+    }
+.container_projects{
+        background-color: rgb(198, 198, 201);
+        margin: 12px ;
+        padding: 20px;
+        width: 300px;
+        border-radius: 15px;
+        justify-content: center;
+        margin-bottom: 40px;
+
+        
+    }
+.projects_header{
+    margin-left:20px;
+    padding: 20px;
+}
+.projects_section{
+    background-color: black;
+}
+.image{
+    width:250px;
+}
+.logo_image{
+    width:100px;
+}
+
+
+
