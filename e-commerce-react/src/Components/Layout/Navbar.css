@@ -1,0 +1,18 @@
+.navColor{
+    background-color: #ee6a96;
+}
+.searchColor{
+    background-color: white;
+}
+.navpos{
+    position: fixed; 
+    top: 0;
+     width: 100%;
+      z-index: 1000;
+}
+.span-color{
+    color:white;
+}
+.navigation__left a {
+    text-decoration: none;  /* Add this to remove the underline from the Link component */
+}

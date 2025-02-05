@@ -1,0 +1,32 @@
+.contact-wrapper {
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+    min-height: 80vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #b83d66;
+}
+
+.left-side {
+    flex: 1;
+    max-width: 350px;
+}
+
+.right-side {
+    flex: 2;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .contact-wrapper {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .left-side {
+        max-width: 100%;
+    }
+}

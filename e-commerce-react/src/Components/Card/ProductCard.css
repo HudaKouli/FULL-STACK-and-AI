@@ -1,0 +1,76 @@
+/* ProductCard.css */
+.card {
+    margin: 50px auto;
+    max-width: 1200px;
+    padding: 20px;
+    margin-top: 50px;
+
+  }
+  
+  .container {
+    background-color: #c9bec2;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #cd1d5e;
+    text-align: center;
+    margin-top: 100px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+  }
+  .container:hover {
+    transform: scale(1.05); /* Zoom in by 5% */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+  }
+  
+  .image {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+  }
+  
+  .stock {
+    
+    margin: 10px 0;
+    border: 3px solid;
+  }
+  
+  .star {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .price {
+    margin-right: 10px;
+    justify-content: left;
+    align-items: left;
+    margin-left: 15px;
+}
+.stars{
+    justify-content: right;
+    align-items: right;
+    margin-left: 200px;
+}
+
+  
+  .buttons {
+    display: flex;  
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  .button{
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+
+  }
+  .button:hover {
+    transform: scale(1.05); /* Zoom in by 5% */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+  }
+  
+  .cart,
+  .wishlist {
+    width: 45%;
+  }
+  .slick-slide >div {
+    margin: 0 10px;
+  }

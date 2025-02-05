@@ -1,0 +1,38 @@
+.last_section{
+    background-color: black;
+  }
+  .footerpos{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 1000; 
+        background-color: #cac7c9;
+        border-top: 1px solid;
+        height: 70px;
+        display: flex;
+
+
+  }
+  .paragraph{
+text-align: center;
+margin-left:600px;
+margin-top:20px ;
+
+  }
+
+  .links{
+text-align: right;
+margin-left:500px;
+margin-top:15px ;
+
+
+  }
+  .logo_image {
+    width: 50px;
+  }
+  .button{
+    text-align: right;
+    margin-top:15px ;
+
+
+}
